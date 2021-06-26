@@ -66,10 +66,25 @@ button {
    margin-top: 24px;
 }
 
-a {
+button a {
    color: #000000;
    text-decoration: none;
    padding: 0 8px;
    letter-spacing: 1px;
+}
 
+.footer {
+   background-color: #DDF5FC;
+   padding: 10px 20px;
+}
+
+.copyright {
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   letter-spacing: 1px;
+}
+
+.linkFaH a {
+   color: #000000;
 }
