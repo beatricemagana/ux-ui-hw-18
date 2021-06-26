@@ -28,3 +28,16 @@ body {
 .navitem {
    padding: 10px 20px;
 }
+
+.title {
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 24px;
+}
+
+.recipeContainer {
+   margin: 24px;
+}
+
+.recipe {
+   border: 1px solid #d3d3d3;
+}
