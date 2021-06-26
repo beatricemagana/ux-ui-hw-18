@@ -40,4 +40,11 @@ body {
 
 .recipe {
    border: 1px solid #d3d3d3;
+   display: flex;
+   margin: 0 15px 15px 0;
+}
+
+.recipeBox {
+   display: flex;
+   justify-content: flex-start;
 }
