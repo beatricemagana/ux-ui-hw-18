@@ -1,4 +1,30 @@
+body {
+   margin: 0;
+}
+
 .recipeImage {
    width: 200px;
    height: auto;
+}
+
+.header {
+   text-transform: uppercase;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 300;
+   height: 40px;
+   background-color: #56ccf2;
+}
+
+.pageTitle {
+   float: left;
+   padding: 10px 20px;
+}
+
+.navigation {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.navitem {
+   padding: 10px 20px;
 }
