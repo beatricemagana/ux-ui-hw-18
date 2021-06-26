@@ -45,6 +45,12 @@ body {
 }
 
 .recipeBox {
+   font-family: Arial, Helvetica, sans-serif;
    display: flex;
    justify-content: flex-start;
+}
+
+.recipeContent {
+   margin: 24px;
+   max-width: 300px;
 }
