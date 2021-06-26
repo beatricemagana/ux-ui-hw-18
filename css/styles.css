@@ -20,6 +20,16 @@ body {
    padding: 10px 20px;
 }
 
+label {
+   margin: 0 40px 0 0;
+   font-size: 26px;
+   display: none;
+}
+
+#toggle {
+   display: none;
+}
+
 .navigation {
    display: flex;
    justify-content: flex-end;
@@ -87,4 +97,32 @@ button a {
 
 .linkFaH a {
    color: #000000;
+}
+
+/* Media query - responsive navigation - breakpoint switches to hamburger menu */
+@media only screen and (max-width: 800px){
+   label {
+      display: block;
+      cursor: pointer;
+      text-align: right;
+   }
+   .header {
+      padding-bottom: 10px;
+   }
+
+   .navigation {
+      text-align: center;
+      background-color: #56ccf2;
+      width: 100%;
+      padding-top: 10px;
+      display: none;
+   }
+
+   .navitem {
+      margin: 0;
+   }
+
+   #toggle:checked + .navigation {
+      display: block;
+   }
 }
